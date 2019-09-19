@@ -14,6 +14,22 @@ body {
   margin: auto;
 }
 
+.bot-container {
+  background: #11cdd4;
+  padding: 20px;
+}
+
+.footer-link {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 5px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
 .top-container {
   background-color: #E3FDFD;
   position: relative;
