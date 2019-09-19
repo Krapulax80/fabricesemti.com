@@ -1,6 +1,8 @@
 /********************************************* CLASS SELECTORS *********************************************/
 .under-construction {
-  border-radius: 60%;
-  width: 15%;
-  margin: 25px;
+  border-radius: 70%;
+  width: 30%;
+  position: absolute;
+  align-items: center;
+  margin: auto;
 }
