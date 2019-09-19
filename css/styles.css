@@ -1,8 +1,21 @@
+/********************************************* TAG SELECTORS *********************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  color: #2C003E;
+}
+
 /********************************************* CLASS SELECTORS *********************************************/
 .under-construction {
   border-radius: 70%;
   width: 30%;
-  position: absolute;
-  align-items: center;
   margin: auto;
+}
+
+.top-container {
+  background-color: #E3FDFD;
+  position: relative;
+  padding: 100px;
 }
