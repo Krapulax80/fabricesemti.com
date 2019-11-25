@@ -7,13 +7,10 @@
     <!-- <title>uiCookies:Black &mdash; Free Bootstrap Theme, Free Responsive Bootstrap Website Template</title> -->
     <!-- <meta name="description" content="Free Bootstrap Theme by uicookies.com"> -->
     <!-- <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template"> -->
-
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="css/styles-merged.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/custom.css">
-
-
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
@@ -23,16 +20,12 @@
   <body>
 
     <!-- START: header -->
-
     <div class="probootstrap-loader"></div>
-
     <header role="banner" class="probootstrap-header">
       <div class="container">
         <!-- <a href="index.html" class="probootstrap-logo">Black<span>.</span></a> -->
-
         <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
         <div class="mobile-menu-overlay"></div>
-
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
             <li><a href="index.html">Home</a></li>
@@ -62,10 +55,10 @@
     </header>
     <!-- END: header -->
 
+    <!-- START: slider -->
     <!-- <div class="fabrice">
     <img class="fabrice-image image-responsive"  src="img/fabrice.jpg" alt="">
   </div> -->
-
     <section class="probootstrap-slider flexslider">
       <ul class="slides">
         <!-- <li style="background-image: url(img/fabrice.jpg);"> -->
@@ -78,7 +71,7 @@
                     <!-- <a href="https://vimeo.com/45830194" class="popup-vimeo probootstrap-video-play"><i class="icon-play3"></i></a> -->
                     <img src="img/fabrice.jpg" alt="Free HTML5 Bootstrap Template by uicookies.com" class="img-responsive img-border fabrice-image">
                   </div>
-                  <figcaption>This is a caption. Far far away, behind the word mountains.</figcaption>
+                  <!-- <figcaption>This is a caption. Far far away, behind the word mountains.</figcaption> -->
                 </figure>
               </div>
             </div>
@@ -95,8 +88,7 @@
       </ul>
     </section>
     <!-- END: slider  -->
-
-    <!-- <section class="probootstrap-section">
+    <!--
     <div class="container">
       <div class="row">
         <div class="col-md-12 section-heading probootstrap-animate">
@@ -160,9 +152,9 @@
         </div>
       </div>
     </div>
-  </section>
-   -->
-    <!-- END section -->
+    </section> -->
+
+    <!-- START: section -->
     <div class="probootstrap-section">
       <div class="container">
         <div class="row">
@@ -306,17 +298,35 @@
     </div>
     <!-- END section -->
 
-
+    <!-- START: section -->
     <section class="probootstrap-section">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
             <div class="service left-icon probootstrap-animate">
-
               <!-- <div class="icon">
                 <i class="icon-laptop3"></i>
               </div> -->
+              <div class="c100 p100 small green">
+                <span>100%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <div class="text">
+                <h3 class="heading">Windows Stack</h3>
+                <p>I am primarily a Windows engineer. I am fairly comfortable with all versions of Windows starting from Server 2008 / Windows XP. </p>
+                <!-- <p><a href="single-page.html">Learn more</a></p> -->
+              </div>
 
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service left-icon probootstrap-animate">
+              <!-- <div class="icon">
+                <i class="icon-presentation"></i>
+              </div> -->
               <div class="c100 p90 small green">
                 <span>90%</span>
                 <div class="slice">
@@ -324,50 +334,51 @@
                   <div class="fill"></div>
                 </div>
               </div>
-
               <div class="text">
-                <h3 class="heading">Windows & Linux</h3>
-                <p>My primary focus is Windows (server 2008 - 2019), but I am also well-versed with Linux deployments, and supporting Linux servers. </p>
-                <p><a href="single-page.html">Learn more</a></p>
-              </div>
-
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service left-icon probootstrap-animate">
-              <div class="icon">
-                <i class="icon-presentation"></i>
-              </div>
-              <div class="text">
-                <h3 class="heading">Capacity planning</h3>
-                <p>I have often required to estimate resources and design efficient, cost-effective and reliable systems. </p>
-                <p><a href="single-page.html">Learn more</a></p>
+                <h3 class="heading">PowerShell / Batch scipting</h3>
+                <p>I am a fairly confident scripter, using PowerShell to manage many aspects of the Windows ecosystem, from working with complex Active Directory queries to managing physical or virtual hardware. I have also employd some batch
+                  scripting - mostly in tasks around deploying .msi packages via GPO or to initiate PowerShell scripts. </p>
+                <p><a href="https://github.com/Krapulax80">Learn more</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="service left-icon probootstrap-animate">
-              <div class="icon">
+              <!-- <div class="icon">
                 <i class="icon-wallet2"></i>
+              </div> -->
+              <div class="c100 p70 small green">
+                <span>70%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
               </div>
               <div class="text">
-                <h3 class="heading">Business Profit</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                <p><a href="single-page.html">Learn more</a></p>
+                <h3 class="heading">Networking</h3>
+                <p>While never worked as a dedicated network engineer, I have participated relevant training courses, and as part of the infrastructure work, I worked with various LAN devices - mostly CISCO and JUNIPER products. </p>
+                <!-- <p><a href="single-page.html">Learn more</a></p> -->
               </div>
             </div>
           </div>
-
-
+        </div>
+        <div class="row">
           <div class="col-md-4">
             <div class="service left-icon probootstrap-animate">
-
-              <div class="icon">
+              <!-- <div class="icon">
                 <i class="icon-hourglass"></i>
+              </div> -->
+              <div class="c100 p85 small green">
+                <span>85%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
               </div>
               <div class="text">
-                <h3 class="heading">Fast &amp; Reliable</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                <h3 class="heading">Virtualization</h3>
+                <p>Appart from dealing with actual physical hardware, I am a very confident user of Hyper-V and VMWare. While I am still in the learning phase - purely as my previous employers were mostly users of private cloud - I can also find my
+                  way around public cloud as well. </p>
                 <p><a href="single-page.html">Learn more</a></p>
               </div>
 
@@ -375,44 +386,62 @@
           </div>
           <div class="col-md-4">
             <div class="service left-icon probootstrap-animate">
-              <div class="icon">
+              <!-- <div class="icon">
                 <i class="icon-shield3"></i>
+              </div> -->
+              <div class="c100 p50 small green">
+                <span>50%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
               </div>
               <div class="text">
-                <h3 class="heading">Business Security</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                <p><a href="single-page.html">Learn more</a></p>
+                <h3 class="heading">DevOps</h3>
+                <p>As a replatively new addition to my skillset, I started implementing DevOps methods and tools within my daily work. I am using more and more tools such as version control, configuration management and deploying infrastructure as a
+                  code. </p>
+                <!-- <p><a href="single-page.html">Learn more</a></p> -->
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="service left-icon probootstrap-animate">
-              <div class="icon">
+              <!-- <div class="icon">
                 <i class="icon-adjustments"></i>
+              </div> -->
+              <div class="c100 p40 small green">
+                <span>40%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
               </div>
               <div class="text">
-                <h3 class="heading">Full Customization</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                <p><a href="single-page.html">Learn more</a></p>
+                <h3 class="heading">webdesign</h3>
+                <p>WEbdesign is currently not my main profile, but I am also branching out towards this part of IT, ie. fron-end. In fact the site you are currently visiting is also a showcase website, created from a heavily modified template. </p>
+                <!-- <p><a href="single-page.html">Learn more</a></p> -->
               </div>
             </div>
           </div>
+
 
         </div>
       </div>
+
     </section>
     <!-- END section -->
 
+    <!-- START: section cta -->
     <div class="container">
       <div class="probootstrap-cta probootstrap-animate border-bototm-none">
-        <h2 class="mb20">Do you have amazing project in mind? Let's get started.</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-        <p><a href="#" role="button" class="btn btn-primary">Get In Touch</a></p>
+        <h2 class="mb20">Do you have amazing project or contract in mind?</h2>
+        <p>Should you find my skillset useful for a small or large job, or perhaps you want more details about my experience, perhaps have thoughts to discuss - do not hesitate to contact me.</p>
+        <p><a href="mailto:fabrice.semti@scriptaholic.co.uk" role="button" class="btn btn-primary">Get In Touch</a></p>
       </div>
     </div>
-
     <!-- END section cta -->
 
+    <!-- START: footer -->
     <footer class="probootstrap-footer probootstrap-bg">
       <div class="container">
         <div class="row mb60">
@@ -478,6 +507,7 @@
         </div>
       </div>
     </footer>
+    <!-- END footer -->
 
     <div class="gototop js-top">
       <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
