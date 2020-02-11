@@ -201,6 +201,10 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   padding: 0;
 }
 
+.alt-menu{
+ color: #22eaaa;
+}
+
 .probootstrap-mobile-menu-active .probootstrap-main-nav {
   float: left;
   margin-top: 40px;
